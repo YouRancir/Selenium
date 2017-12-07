@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.auto.util.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.paycheck.Basicsalary">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="salary1"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.paycheck.Basicsalary -->
+      <class name="com.test.login.LoginPageTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="be"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.login.LoginPageTest -->
+      <class name="com.test.record.Search">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="searchfail3"/>
+          <include name="beforeAction"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.record.Search -->
+      <class name="com.test.dailypaper.Sort">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.dailypaper.Sort -->
+      <class name="com.test.dailypaper.Page">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.dailypaper.Page -->
+      <class name="com.test.record.Comment">
+        <methods>
+          <include name="beforeAction"/>
+          <include name="doAfterMethod"/>
+          <include name="commentinput3"/>
+          <include name="commentinput4"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.record.Comment -->
+      <class name="com.test.record.State">
+        <methods>
+          <include name="state6"/>
+          <include name="state7"/>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.record.State -->
+      <class name="com.test.record.Details">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.record.Details -->
+      <class name="com.test.record.Allrecord">
+        <methods>
+          <include name="beforeAction"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.record.Allrecord -->
+      <class name="com.test.dailypaper.SearchDataProviderTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+          <include name="beforeAction"/>
+        </methods>
+      </class> <!-- com.test.dailypaper.SearchDataProviderTest -->
+      <class name="com.test.dailypaper.Adddate">
+        <methods>
+          <include name="adddate7"/>
+          <include name="adddate3"/>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="adddate9"/>
+          <include name="adddate8"/>
+          <include name="adddate6"/>
+          <include name="adddate5"/>
+          <include name="adddate4"/>
+          <include name="adddate2"/>
+          <include name="adddate1"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.dailypaper.Adddate -->
+      <class name="com.test.dailypaper.Allpaper">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.dailypaper.Allpaper -->
+      <class name="com.test.paycheck.Tick">
+        <methods>
+          <include name="beforeAction"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.paycheck.Tick -->
+      <class name="com.test.paycheck.Addperson">
+        <methods>
+          <include name="beforeAction"/>
+          <include name="doAfterMethod"/>
+          <include name="tick1"/>
+          <include name="tick3"/>
+          <include name="tick2"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.paycheck.Addperson -->
+      <class name="com.test.record.Update">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.record.Update -->
+      <class name="com.test.record.Detailsnew">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.record.Detailsnew -->
+      <class name="com.test.daohang.Click">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.daohang.Click -->
+      <class name="com.test.dailypaper.Dailytype">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="beforeAction"/>
+          <include name="type"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.test.dailypaper.Dailytype -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

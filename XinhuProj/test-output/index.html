@@ -1,0 +1,1939 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 19 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\5 大三上半学期\Selenium大作业\Githubcode\XinhuProj\testngXML\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">55 methods, 19 failed,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Adddate" hash-for-method="adddate1">adddate1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Adddate" hash-for-method="adddate2">adddate2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Adddate" hash-for-method="adddate3">adddate3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Adddate" hash-for-method="adddate4">adddate4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Adddate" hash-for-method="adddate5">adddate5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Adddate" hash-for-method="adddate6">adddate6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Adddate" hash-for-method="adddate7">adddate7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Adddate" hash-for-method="adddate8">adddate8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Adddate" hash-for-method="adddate9">adddate9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Comment" hash-for-method="commentinput3">commentinput3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Comment" hash-for-method="commentinput4">commentinput4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.paycheck.Basicsalary" hash-for-method="salary1">salary1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Search" hash-for-method="searchfail3">searchfail3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.State" hash-for-method="state6">state6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.State" hash-for-method="state7">state7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.paycheck.Addperson" hash-for-method="tick1">tick1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.paycheck.Addperson" hash-for-method="tick2">tick2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.paycheck.Addperson" hash-for-method="tick3">tick3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Dailytype" hash-for-method="type">type</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Allpaper" hash-for-method="all1">all1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Allrecord" hash-for-method="all1">all1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Allpaper" hash-for-method="all2">all2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Allrecord" hash-for-method="all2">all2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Allpaper" hash-for-method="all3">all3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.daohang.Click" hash-for-method="click">click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Comment" hash-for-method="commentinput1">commentinput1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Comment" hash-for-method="commentinput2">commentinput2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Comment" hash-for-method="commentno">commentno</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Comment" hash-for-method="commentyes">commentyes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Details" hash-for-method="details">details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Detailsnew" hash-for-method="details">details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Page" hash-for-method="page">page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.paycheck.Basicsalary" hash-for-method="salary2">salary2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Search" hash-for-method="searchfail1">searchfail1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Search" hash-for-method="searchfail2">searchfail2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Search" hash-for-method="searchfail4">searchfail4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Search" hash-for-method="searchsuccess">searchsuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Sort" hash-for-method="sort1">sort1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Sort" hash-for-method="sort2">sort2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.Sort" hash-for-method="sort3">sort3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Update" hash-for-method="state1">state1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.State" hash-for-method="state1">state1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.Update" hash-for-method="state2">state2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.State" hash-for-method="state2">state2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.State" hash-for-method="state3">state3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.State" hash-for-method="state4">state4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.record.State" hash-for-method="state5">state5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.login.LoginPageTest" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.SearchDataProviderTest" hash-for-method="test1(管理员)">test1(管理员)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.SearchDataProviderTest" hash-for-method="test1(2017-01-05)">test1(2017-01-05)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.SearchDataProviderTest" hash-for-method="test1(开发部)">test1(开发部)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.SearchDataProviderTest" hash-for-method="test1(%%%)">test1(%%%)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.dailypaper.SearchDataProviderTest" hash-for-method="test1(啦啦啦)">test1(啦啦啦)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.paycheck.Tick" hash-for-method="tick1">tick1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.paycheck.Tick" hash-for-method="tick2">tick2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.paycheck.Basicsalary</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="salary1">
+                  </a> <!-- salary1 -->
+                  <span class="method-name">salary1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.test.paycheck.Basicsalary.salary1(Basicsalary.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.dailypaper.Adddate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adddate1">
+                  </a> <!-- adddate1 -->
+                  <span class="method-name">adddate1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.test.dailypaper.Adddate.adddate1(Adddate.java:34)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adddate2">
+                  </a> <!-- adddate2 -->
+                  <span class="method-name">adddate2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.test.dailypaper.Adddate.adddate2(Adddate.java:47)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adddate3">
+                  </a> <!-- adddate3 -->
+                  <span class="method-name">adddate3</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id openinputiframe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-A9JBT3B&apos;, ip: &apos;192.168.204.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:44)
+	at com.test.dailypaper.Adddate.adddate3(Adddate.java:52)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adddate4">
+                  </a> <!-- adddate4 -->
+                  <span class="method-name">adddate4</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id openinputiframe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-A9JBT3B&apos;, ip: &apos;192.168.204.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:44)
+	at com.test.dailypaper.Adddate.adddate4(Adddate.java:66)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adddate5">
+                  </a> <!-- adddate5 -->
+                  <span class="method-name">adddate5</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id openinputiframe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-A9JBT3B&apos;, ip: &apos;192.168.204.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:44)
+	at com.test.dailypaper.Adddate.adddate5(Adddate.java:79)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adddate6">
+                  </a> <!-- adddate6 -->
+                  <span class="method-name">adddate6</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id openinputiframe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-A9JBT3B&apos;, ip: &apos;192.168.204.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:44)
+	at com.test.dailypaper.Adddate.adddate6(Adddate.java:95)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adddate7">
+                  </a> <!-- adddate7 -->
+                  <span class="method-name">adddate7</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id openinputiframe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-A9JBT3B&apos;, ip: &apos;192.168.204.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:44)
+	at com.test.dailypaper.Adddate.adddate7(Adddate.java:111)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adddate8">
+                  </a> <!-- adddate8 -->
+                  <span class="method-name">adddate8</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id openinputiframe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-A9JBT3B&apos;, ip: &apos;192.168.204.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:44)
+	at com.test.dailypaper.Adddate.adddate8(Adddate.java:125)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adddate9">
+                  </a> <!-- adddate9 -->
+                  <span class="method-name">adddate9</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id openinputiframe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-A9JBT3B&apos;, ip: &apos;192.168.204.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:44)
+	at com.test.dailypaper.Adddate.adddate9(Adddate.java:141)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.record.Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchfail3">
+                  </a> <!-- searchfail3 -->
+                  <span class="method-name">searchfail3</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.test.record.Search.searchfail3(Search.java:46)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.paycheck.Addperson</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tick1">
+                  </a> <!-- tick1 -->
+                  <span class="method-name">tick1</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.test.paycheck.Addperson.tick1(Addperson.java:31)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tick2">
+                  </a> <!-- tick2 -->
+                  <span class="method-name">tick2</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id openinputiframe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-A9JBT3B&apos;, ip: &apos;192.168.204.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:44)
+	at com.test.paycheck.Addperson.tick2(Addperson.java:37)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tick3">
+                  </a> <!-- tick3 -->
+                  <span class="method-name">tick3</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id openinputiframe
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-A9JBT3B&apos;, ip: &apos;192.168.204.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.webtest.core.WebDriverEngine.enterFrame(WebDriverEngine.java:44)
+	at com.test.paycheck.Addperson.tick3(Addperson.java:46)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.record.State</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="state6">
+                  </a> <!-- state6 -->
+                  <span class="method-name">state6</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.test.record.State.state6(State.java:66)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="state7">
+                  </a> <!-- state7 -->
+                  <span class="method-name">state7</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.test.record.State.state7(State.java:74)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.record.Comment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentinput3">
+                  </a> <!-- commentinput3 -->
+                  <span class="method-name">commentinput3</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.test.record.Comment.commentinput3(Comment.java:59)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentinput4">
+                  </a> <!-- commentinput4 -->
+                  <span class="method-name">commentinput4</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.test.record.Comment.commentinput4(Comment.java:72)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.dailypaper.Dailytype</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="type">
+                  </a> <!-- type -->
+                  <span class="method-name">type</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.test.dailypaper.Dailytype.type(Dailytype.java:30)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.paycheck.Basicsalary</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="salary2">
+                  </a> <!-- salary2 -->
+                  <span class="method-name">salary2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.login.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.record.Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchfail1">
+                  </a> <!-- searchfail1 -->
+                  <span class="method-name">searchfail1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchfail2">
+                  </a> <!-- searchfail2 -->
+                  <span class="method-name">searchfail2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchfail4">
+                  </a> <!-- searchfail4 -->
+                  <span class="method-name">searchfail4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchsuccess">
+                  </a> <!-- searchsuccess -->
+                  <span class="method-name">searchsuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.dailypaper.Sort</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort1">
+                  </a> <!-- sort1 -->
+                  <span class="method-name">sort1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort2">
+                  </a> <!-- sort2 -->
+                  <span class="method-name">sort2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort3">
+                  </a> <!-- sort3 -->
+                  <span class="method-name">sort3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.dailypaper.Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="page">
+                  </a> <!-- page -->
+                  <span class="method-name">page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.record.Comment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentinput1">
+                  </a> <!-- commentinput1 -->
+                  <span class="method-name">commentinput1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentinput2">
+                  </a> <!-- commentinput2 -->
+                  <span class="method-name">commentinput2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentno">
+                  </a> <!-- commentno -->
+                  <span class="method-name">commentno</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentyes">
+                  </a> <!-- commentyes -->
+                  <span class="method-name">commentyes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.record.State</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="state1">
+                  </a> <!-- state1 -->
+                  <span class="method-name">state1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="state2">
+                  </a> <!-- state2 -->
+                  <span class="method-name">state2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="state3">
+                  </a> <!-- state3 -->
+                  <span class="method-name">state3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="state4">
+                  </a> <!-- state4 -->
+                  <span class="method-name">state4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="state5">
+                  </a> <!-- state5 -->
+                  <span class="method-name">state5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.record.Details</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="details">
+                  </a> <!-- details -->
+                  <span class="method-name">details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.dailypaper.SearchDataProviderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1(管理员)">
+                  </a> <!-- test1(管理员) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">(管理员)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1(2017-01-05)">
+                  </a> <!-- test1(2017-01-05) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">(2017-01-05)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1(开发部)">
+                  </a> <!-- test1(开发部) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">(开发部)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1(%%%)">
+                  </a> <!-- test1(%%%) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">(%%%)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1(啦啦啦)">
+                  </a> <!-- test1(啦啦啦) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">(啦啦啦)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.record.Allrecord</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="all1">
+                  </a> <!-- all1 -->
+                  <span class="method-name">all1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="all2">
+                  </a> <!-- all2 -->
+                  <span class="method-name">all2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.dailypaper.Allpaper</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="all1">
+                  </a> <!-- all1 -->
+                  <span class="method-name">all1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="all2">
+                  </a> <!-- all2 -->
+                  <span class="method-name">all2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="all3">
+                  </a> <!-- all3 -->
+                  <span class="method-name">all3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.paycheck.Tick</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tick1">
+                  </a> <!-- tick1 -->
+                  <span class="method-name">tick1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tick2">
+                  </a> <!-- tick2 -->
+                  <span class="method-name">tick2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.record.Update</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="state1">
+                  </a> <!-- state1 -->
+                  <span class="method-name">state1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="state2">
+                  </a> <!-- state2 -->
+                  <span class="method-name">state2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.record.Detailsnew</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="details">
+                  </a> <!-- details -->
+                  <span class="method-name">details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.daohang.Click</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="click">
+                  </a> <!-- click -->
+                  <span class="method-name">click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\5 大三上半学期\Selenium大作业\Githubcode\XinhuProj\testngXML\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.auto.util.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.login.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.test.daohang.Click&quot;/&gt;
+      &lt;class name=&quot;com.test.record.Allrecord&quot;/&gt;
+      &lt;class name=&quot;com.test.record.Comment&quot;/&gt;
+      &lt;class name=&quot;com.test.record.Details&quot;/&gt;
+      &lt;class name=&quot;com.test.record.Detailsnew&quot;/&gt;
+      &lt;class name=&quot;com.test.record.Search&quot;/&gt;
+      &lt;class name=&quot;com.test.record.State&quot;/&gt;
+      &lt;class name=&quot;com.test.record.Update&quot;/&gt;
+      &lt;class name=&quot;com.test.dailypaper.Adddate&quot;/&gt;
+      &lt;class name=&quot;com.test.dailypaper.Allpaper&quot;/&gt;
+      &lt;class name=&quot;com.test.dailypaper.Dailytype&quot;/&gt;
+      &lt;class name=&quot;com.test.dailypaper.Page&quot;/&gt;
+      &lt;class name=&quot;com.test.dailypaper.Sort&quot;/&gt;
+      &lt;class name=&quot;com.test.dailypaper.SearchDataProviderTest&quot;/&gt;
+      &lt;class name=&quot;com.test.paycheck.Addperson&quot;/&gt;
+      &lt;class name=&quot;com.test.paycheck.Basicsalary&quot;/&gt;
+      &lt;class name=&quot;com.test.paycheck.Tick&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(55);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tick1')
+data.setCell(0, 2, 'com.test.paycheck.Addperson')
+data.setCell(0, 3, 32769);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'details')
+data.setCell(1, 2, 'com.test.record.Details')
+data.setCell(1, 3, 32709);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'salary1')
+data.setCell(2, 2, 'com.test.paycheck.Basicsalary')
+data.setCell(2, 3, 32648);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'adddate1')
+data.setCell(3, 2, 'com.test.dailypaper.Adddate')
+data.setCell(3, 3, 29716);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tick1')
+data.setCell(4, 2, 'com.test.paycheck.Tick')
+data.setCell(4, 3, 23108);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'page')
+data.setCell(5, 2, 'com.test.dailypaper.Page')
+data.setCell(5, 3, 23081);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'type')
+data.setCell(6, 2, 'com.test.dailypaper.Dailytype')
+data.setCell(6, 3, 22968);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'state1')
+data.setCell(7, 2, 'com.test.record.State')
+data.setCell(7, 3, 20087);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'commentyes')
+data.setCell(8, 2, 'com.test.record.Comment')
+data.setCell(8, 3, 19851);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'details')
+data.setCell(9, 2, 'com.test.record.Detailsnew')
+data.setCell(9, 3, 16633);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'sort1')
+data.setCell(10, 2, 'com.test.dailypaper.Sort')
+data.setCell(10, 3, 16521);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'all2')
+data.setCell(11, 2, 'com.test.record.Allrecord')
+data.setCell(11, 3, 16486);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'salary2')
+data.setCell(12, 2, 'com.test.paycheck.Basicsalary')
+data.setCell(12, 3, 16447);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'searchsuccess')
+data.setCell(13, 2, 'com.test.record.Search')
+data.setCell(13, 3, 13263);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'state1')
+data.setCell(14, 2, 'com.test.record.Update')
+data.setCell(14, 3, 13224);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'all1')
+data.setCell(15, 2, 'com.test.record.Allrecord')
+data.setCell(15, 3, 13187);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'all1')
+data.setCell(16, 2, 'com.test.dailypaper.Allpaper')
+data.setCell(16, 3, 13136);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'adddate2')
+data.setCell(17, 2, 'com.test.dailypaper.Adddate')
+data.setCell(17, 3, 12880);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'commentinput4')
+data.setCell(18, 2, 'com.test.record.Comment')
+data.setCell(18, 3, 10215);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'state3')
+data.setCell(19, 2, 'com.test.record.State')
+data.setCell(19, 3, 9986);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'state2')
+data.setCell(20, 2, 'com.test.record.State')
+data.setCell(20, 3, 9977);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'state4')
+data.setCell(21, 2, 'com.test.record.State')
+data.setCell(21, 3, 9970);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'commentinput3')
+data.setCell(22, 2, 'com.test.record.Comment')
+data.setCell(22, 3, 9963);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'commentinput1')
+data.setCell(23, 2, 'com.test.record.Comment')
+data.setCell(23, 3, 9936);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'state5')
+data.setCell(24, 2, 'com.test.record.State')
+data.setCell(24, 3, 9933);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'click')
+data.setCell(25, 2, 'com.test.daohang.Click')
+data.setCell(25, 3, 9913);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'commentinput2')
+data.setCell(26, 2, 'com.test.record.Comment')
+data.setCell(26, 3, 9900);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'all2')
+data.setCell(27, 2, 'com.test.dailypaper.Allpaper')
+data.setCell(27, 3, 6617);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'sort2')
+data.setCell(28, 2, 'com.test.dailypaper.Sort')
+data.setCell(28, 3, 6617);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'tick2')
+data.setCell(29, 2, 'com.test.paycheck.Tick')
+data.setCell(29, 3, 6615);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'sort3')
+data.setCell(30, 2, 'com.test.dailypaper.Sort')
+data.setCell(30, 3, 6603);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'all3')
+data.setCell(31, 2, 'com.test.dailypaper.Allpaper')
+data.setCell(31, 3, 6602);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'state2')
+data.setCell(32, 2, 'com.test.record.Update')
+data.setCell(32, 3, 6601);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'test')
+data.setCell(33, 2, 'com.test.login.LoginPageTest')
+data.setCell(33, 3, 3627);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'test1')
+data.setCell(34, 2, 'com.test.dailypaper.SearchDataProviderTest')
+data.setCell(34, 3, 3384);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'searchfail1')
+data.setCell(35, 2, 'com.test.record.Search')
+data.setCell(35, 3, 3363);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'test1')
+data.setCell(36, 2, 'com.test.dailypaper.SearchDataProviderTest')
+data.setCell(36, 3, 3363);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'test1')
+data.setCell(37, 2, 'com.test.dailypaper.SearchDataProviderTest')
+data.setCell(37, 3, 3349);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'searchfail3')
+data.setCell(38, 2, 'com.test.record.Search')
+data.setCell(38, 3, 3348);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'searchfail2')
+data.setCell(39, 2, 'com.test.record.Search')
+data.setCell(39, 3, 3331);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'searchfail4')
+data.setCell(40, 2, 'com.test.record.Search')
+data.setCell(40, 3, 3316);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'test1')
+data.setCell(41, 2, 'com.test.dailypaper.SearchDataProviderTest')
+data.setCell(41, 3, 3316);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'commentno')
+data.setCell(42, 2, 'com.test.record.Comment')
+data.setCell(42, 3, 3302);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'test1')
+data.setCell(43, 2, 'com.test.dailypaper.SearchDataProviderTest')
+data.setCell(43, 3, 3301);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'adddate9')
+data.setCell(44, 2, 'com.test.dailypaper.Adddate')
+data.setCell(44, 3, 3063);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'adddate5')
+data.setCell(45, 2, 'com.test.dailypaper.Adddate')
+data.setCell(45, 3, 3047);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'tick2')
+data.setCell(46, 2, 'com.test.paycheck.Addperson')
+data.setCell(46, 3, 3032);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'adddate7')
+data.setCell(47, 2, 'com.test.dailypaper.Adddate')
+data.setCell(47, 3, 3032);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'adddate4')
+data.setCell(48, 2, 'com.test.dailypaper.Adddate')
+data.setCell(48, 3, 3031);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'adddate3')
+data.setCell(49, 2, 'com.test.dailypaper.Adddate')
+data.setCell(49, 3, 3016);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'adddate8')
+data.setCell(50, 2, 'com.test.dailypaper.Adddate')
+data.setCell(50, 3, 3016);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'adddate6')
+data.setCell(51, 2, 'com.test.dailypaper.Adddate')
+data.setCell(51, 3, 3015);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'tick3')
+data.setCell(52, 2, 'com.test.paycheck.Addperson')
+data.setCell(52, 3, 3015);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'state6')
+data.setCell(53, 2, 'com.test.record.State')
+data.setCell(53, 3, 97);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'state7')
+data.setCell(54, 2, 'com.test.record.State')
+data.setCell(54, 3, 55);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.login.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">be</span>
+                <span class="method-start">7332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">10535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">14164 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.daohang.Click</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">23807 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">28903 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">click</span>
+                <span class="method-start">36655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">46568 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.record.Allrecord</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">52753 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">57658 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">all1</span>
+                <span class="method-start">65371 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">all2</span>
+                <span class="method-start">78573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">95059 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.record.Comment</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">100729 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">105628 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">commentyes</span>
+                <span class="method-start">113448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">commentno</span>
+                <span class="method-start">133299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">commentinput1</span>
+                <span class="method-start">136601 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">commentinput2</span>
+                <span class="method-start">146537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">commentinput3</span>
+                <span class="method-start">156437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">commentinput4</span>
+                <span class="method-start">166400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">176630 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.record.Details</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">182406 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">187356 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">details</span>
+                <span class="method-start">195119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">227828 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.record.Detailsnew</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">237373 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">242287 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">details</span>
+                <span class="method-start">250028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">266661 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.record.Search</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">276217 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">281225 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchsuccess</span>
+                <span class="method-start">288959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchfail1</span>
+                <span class="method-start">302222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchfail2</span>
+                <span class="method-start">305585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchfail3</span>
+                <span class="method-start">308916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchfail4</span>
+                <span class="method-start">312264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">315596 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.record.State</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">325126 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">331257 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">state6</span>
+                <span class="method-start">339035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">state7</span>
+                <span class="method-start">339134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">state1</span>
+                <span class="method-start">339191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">state2</span>
+                <span class="method-start">359278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">state3</span>
+                <span class="method-start">369255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">state4</span>
+                <span class="method-start">379241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">state5</span>
+                <span class="method-start">389211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">399160 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.record.Update</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">405342 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">411383 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">state1</span>
+                <span class="method-start">419218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">state2</span>
+                <span class="method-start">432442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">439043 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.dailypaper.Adddate</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">445127 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">450090 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">adddate1</span>
+                <span class="method-start">457962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">adddate2</span>
+                <span class="method-start">487678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">adddate3</span>
+                <span class="method-start">500558 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">adddate4</span>
+                <span class="method-start">503574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">adddate5</span>
+                <span class="method-start">506605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">adddate6</span>
+                <span class="method-start">509652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">adddate7</span>
+                <span class="method-start">512667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">adddate8</span>
+                <span class="method-start">515714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">adddate9</span>
+                <span class="method-start">518730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">521793 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.dailypaper.Allpaper</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">527715 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">532652 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">all1</span>
+                <span class="method-start">540404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">all2</span>
+                <span class="method-start">553555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">all3</span>
+                <span class="method-start">560172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">566774 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.dailypaper.Dailytype</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">576244 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">581256 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">type</span>
+                <span class="method-start">588985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">611968 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.dailypaper.Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">617835 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">623952 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">page</span>
+                <span class="method-start">631785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">654866 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.dailypaper.Sort</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">660710 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">665701 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">sort1</span>
+                <span class="method-start">673477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sort2</span>
+                <span class="method-start">690014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sort3</span>
+                <span class="method-start">696631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">703234 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.dailypaper.SearchDataProviderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">709036 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">713955 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test1(开发部)</span>
+                <span class="method-start">731616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1(管理员)</span>
+                <span class="method-start">734979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1(2017-01-05)</span>
+                <span class="method-start">738363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1(啦啦啦)</span>
+                <span class="method-start">741712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1(%%%)</span>
+                <span class="method-start">745028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">748329 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.paycheck.Addperson</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">754410 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">759343 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tick1</span>
+                <span class="method-start">767064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tick2</span>
+                <span class="method-start">799833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tick3</span>
+                <span class="method-start">802865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">805896 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.paycheck.Basicsalary</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">811379 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">816324 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">salary1</span>
+                <span class="method-start">824088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">salary2</span>
+                <span class="method-start">856736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">873183 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.paycheck.Tick</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">881017 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeAction</span>
+                <span class="method-start">885984 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tick1</span>
+                <span class="method-start">893603 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tick2</span>
+                <span class="method-start">916727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">923342 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

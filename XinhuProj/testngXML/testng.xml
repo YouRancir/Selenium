@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="com.auto.util.Listener"/>
+</listeners>
+
+  <test name="Test" preserve-order="true">
+    <classes>
+      <class name="com.test.login.LoginPageTest"/>
+      <class name="com.test.daohang.Click"/>
+      <class name="com.test.record.Allrecord"/>
+      <class name="com.test.record.Comment"/>
+      <class name="com.test.record.Details"/>
+      <class name="com.test.record.Detailsnew"/>
+      <class name="com.test.record.Search"/>
+      <class name="com.test.record.State"/>
+      <class name="com.test.record.Update"/>
+      
+      <class name="com.test.dailypaper.Adddate"/>
+      <class name="com.test.dailypaper.Allpaper"/>
+      <class name="com.test.dailypaper.Dailytype"/>
+      <class name="com.test.dailypaper.Page"/>
+      <class name="com.test.dailypaper.Sort"/>
+      <class name="com.test.dailypaper.SearchDataProviderTest"/>
+      
+      <class name="com.test.paycheck.Addperson"/>
+      <class name="com.test.paycheck.Basicsalary"/>
+      <class name="com.test.paycheck.Tick"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
