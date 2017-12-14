@@ -1,12 +1,15 @@
 package com.auto.util;//发送邮件
 
 import java.util.Properties;
+import javax.activation.DataHandler;
+import javax.activation.FileDataSource;
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 
 public class Mail {
@@ -43,9 +46,16 @@ public class Mail {
       //3.邮件的收件人
         message.setRecipient(Message.RecipientType.TO, new InternetAddress("2649967423@qq.com"));
       //4.邮件的标题
-        message.setSubject("Listener");
+        message.setSubject("游然的测试报告");
       //5.邮件的文本内容
-        message.setContent("TestFailure！", "text/html;charset=UTF-8");
+        message.setContent("这是游然的测试报告！请查收", "text/html;charset=UTF-8");
+        
+     //创建邮件附件
+	     MimeBodyPart attach = new MimeBodyPart();
+	     DataHandler dh = new DataHandler(new FileDataSource("..\\XinhuProj\\test-output\\testReport.html"));
+         attach.setDataHandler(dh);
+	     attach.setFileName(dh.getName());  
+        
       //6.返回创建好的邮件对象
         return message;
     }
@@ -55,3 +65,4 @@ public class Mail {
 		mail.sendMail();
 	}
 }
+
